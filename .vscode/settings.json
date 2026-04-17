@@ -1,5 +1,6 @@
 {
   "terminal.integrated.mouseWheelZoom": false,
   "editor.mouseWheelZoom": true,
-  "editor.fontSize": 16
+  "editor.fontSize": 16,
+  "python-envs.defaultEnvManager": "ms-python.python:system"
 }

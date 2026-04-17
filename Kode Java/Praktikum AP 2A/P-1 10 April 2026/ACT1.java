@@ -2,6 +2,7 @@ import static java.lang.System.out;
 import java.util.Scanner;
 
 public class ACT1 {
+    @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
@@ -20,5 +21,6 @@ public class ACT1 {
         out.println(bil1 + " - " + bil2 + " = " + kurang);
         out.println(bil1 + " * " + bil2 + " = " + kali);
         out.println(bil1 + " / " + bil2 + " = " + bagi);        
+        input.close();
     }
 }
