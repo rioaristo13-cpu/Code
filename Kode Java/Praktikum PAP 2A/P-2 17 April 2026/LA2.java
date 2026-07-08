@@ -13,26 +13,27 @@ public class LA2 {
             out.println("4. Exit menu");
             out.print("Pilih Menu (1-4) : ");
             int menu = input.nextInt();
+            input.nextLine();
 
             switch (menu) {
                 case 1:
-                    out.print("Masukkan Nama : ");
+                    out.print("Masukkan Nama \t  : ");
                     String nm = input.nextLine();
-                    out.print("Masukkan Kelas : ");
+                    out.print("Masukkan Kelas \t  : ");
                     String kls = input.nextLine();
-                    out.print("Masukkan NPM : ");
+                    out.print("Masukkan NPM \t  : ");
                     String npm = input.nextLine();
-                    out.print("Masukkan Jurusan : ");
+                    out.print("Masukkan Jurusan  : ");
                     String jur = input.nextLine();
                     out.print("Masukkan Fakultas : ");
                     String fak = input.nextLine();
 
                     out.println("\n--- Output Biodata ---");
-                    out.println("Nama Anda adalah : " + nm);
-                    out.println("Kelas Anda adalah : " + kls);
-                    out.println("NPM Anda adalah : " + npm);
-                    out.println("Jurusan Anda adalah : " + jur);
-                    out.println("Fakultas Anda adalah : " + fak);
+                    out.println("Nama Anda adalah \t: " + nm);
+                    out.println("Kelas Anda adalah \t: " + kls);
+                    out.println("NPM Anda adalah \t: " + npm);
+                    out.println("Jurusan Anda adalah \t: " + jur);
+                    out.println("Fakultas Anda adalah \t: " + fak);
                     break;
                 case 2:
                     out.println("\n--- Kalkulator ---");
@@ -41,11 +42,11 @@ public class LA2 {
                     out.print("Masukkan angka 2 : ");
                     float x2 = input.nextFloat();
 
-                    out.println("Penjumlahan : " + (x1 + x2));
+                    out.println("\nPenjumlahan : " + (x1 + x2));
                     out.println("Pengurangan : " + (x1 - x2));
                     out.println("Perkalian   : " + (x1 * x2));
-                    out.println("Pembagian   :" + (x1 / x2));
-                    out.println("Modulus     :" + (x1 % x2));
+                    out.println("Pembagian   : " + (x1 / x2));
+                    out.println("Modulus     : " + (x1 % x2));
                     break;
                 case 3:
                     out.println("\n--- Grade Nilai ---");
@@ -55,10 +56,10 @@ public class LA2 {
                     float n_uas = input.nextFloat();
 
                     out.println("\n--- Output Grade Nilai ---");
-                    out.println("Nilai UTS   : " + n_uts);
-                    out.println("Nilai UAS   : " + n_uas);
+                    out.println("Nilai UTS   \t: " + n_uts);
+                    out.println("Nilai UAS   \t: " + n_uas);
                     float n_rata = (n_uts + n_uas) / 2;
-                    out.println("Rata - Rata : " + n_rata);
+                    out.println("Rata - Rata \t: " + n_rata);
 
                     if        (n_rata >= 90) {
                         out.println("Grade\t\t: Baik Sekali");

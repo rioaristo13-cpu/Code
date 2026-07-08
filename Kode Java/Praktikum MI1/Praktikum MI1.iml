@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/P-1 20 November 2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/P-2 27 November 2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/P-3 4 Desember 2025" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/P-4 8 Januari 2026" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ulangan MI1 15 Januari 2025" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

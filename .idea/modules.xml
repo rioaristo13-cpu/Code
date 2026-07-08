@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Kode Java/Praktikum AP 2A/Praktikum AP 2A.iml" filepath="$PROJECT_DIR$/Kode Java/Praktikum AP 2A/Praktikum AP 2A.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kode Java/Praktikum MI1/Praktikum MI1.iml" filepath="$PROJECT_DIR$/Kode Java/Praktikum MI1/Praktikum MI1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Kode Java/Test Programs/Test Programs.iml" filepath="$PROJECT_DIR$/Kode Java/Test Programs/Test Programs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/codeUni.iml" filepath="$PROJECT_DIR$/.idea/codeUni.iml" />
+    </modules>
+  </component>
+</project>

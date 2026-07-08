@@ -1,0 +1,28 @@
+{
+    "mahasiswa": [
+    {
+        "id": 1,
+        "nama": "Aristo Azario Christyan",
+        "npm": "50425143",
+        "kelas": "1IA15"
+    },
+    {
+        "id": 2,
+        "nama": "I Wayan Agus",
+        "npm": "50428142",
+        "kelas": "1KB13"
+    },
+    {
+        "id": 3,
+        "nama": "Muhammad Nikolas",
+        "npm": "50425912",
+        "kelas": "1PP15"
+    },
+    {
+        "id": 4,
+        "nama": "Gaza Lazuardi",
+        "npm": "50421304",
+        "kelas": "1OK11"
+    }
+    ]
+}

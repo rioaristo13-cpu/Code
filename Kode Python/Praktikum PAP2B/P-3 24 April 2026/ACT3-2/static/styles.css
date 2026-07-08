@@ -1,0 +1,42 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 20px;
+  background-color: blueviolet;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+  color: #333;
+}
+
+.info {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.info span {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #666;
+}
+
+.info span:last-child {
+  margin-bottom: 0;
+}
